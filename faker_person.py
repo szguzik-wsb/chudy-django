@@ -7,7 +7,7 @@ from faker import Faker
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chudyproject.settings')
 django.setup()
 
-from chudyapp.models import Person
+from chudyapp.models.PersonModel import Person
 
 def persons(N=1000000):
     fake = Faker()

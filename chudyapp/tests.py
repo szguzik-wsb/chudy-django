@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from chudyapp.models import Person
+from chudyapp.models.PersonModel import Person
 
 
 # Create your tests here.
